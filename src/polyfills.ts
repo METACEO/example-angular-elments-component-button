@@ -78,3 +78,6 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
+// Adding these even though ng add @angular/elements --name=example-angular-elements-component-button was supposed to?.. according to docs?
+import '@webcomponents/custom-elements/src/native-shim';
+import '@webcomponents/custom-elements/custom-elements.min';
